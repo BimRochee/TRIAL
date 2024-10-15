@@ -1,0 +1,55 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.user-table th {
+    background-color: #f2f2f2;
+}
+
+.user-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.btn-edit, .btn-delete {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.btn-edit {
+    background-color: #FFA500;
+}
+
+.btn-delete {
+    background-color: #f44336;
+}
